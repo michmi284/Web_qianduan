@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三种显示模式的转换</title>
+    <style>
+        span {
+            /*把行内元素转化为块级元素*/
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: violet;
+        }
+
+        div {
+            /*把块级元素转化为行内元素*/
+
+            display: inline;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+
+        a {
+            /*转化为行内块元素*/
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: silver;
+
+        }
+    </style>
+</head>
+<body>
+<span>
+    行内inline
+</span>
+<span>
+    行内inline
+</span>
+<div>div是块级元素</div>
+<div>div是块级元素</div>
+<a href="">123</a><a href="">456</a>
+</body>
+</html>
