@@ -49,35 +49,36 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="24" />
+          <entry key="html" value="32" />
           <entry key="jpg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="24" />
+          <entry key="HTML" value="32" />
           <entry key="Image" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="163" />
-          <entry key="html" value="4099" />
+          <entry key="html" value="4595" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="163" />
-          <entry key="HTML" value="4099" />
+          <entry key="HTML" value="4595" />
         </counts>
       </usages-collector>
     </session>
@@ -85,46 +86,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02/Demo6.html">
+        <entry file="file://$PROJECT_DIR$/Day03/Demo1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="162">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02/Demo4.html">
+        <entry file="file://$PROJECT_DIR$/Day03/Demo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="135">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02/Text2/Text3.html">
+        <entry file="file://$PROJECT_DIR$/Day03/Demo3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day03/Test3/Test1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day02/Text2/Text4.html">
+        <entry file="file://$PROJECT_DIR$/Day03/Demo4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day02/Text2/Text1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="530">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -167,6 +168,12 @@
         <option value="$PROJECT_DIR$/Day02/Demo4.html" />
         <option value="$PROJECT_DIR$/Day02/Text2/Text3.html" />
         <option value="$PROJECT_DIR$/Day02/Text2/Text4.html" />
+        <option value="$PROJECT_DIR$/Day03/Demo1.html" />
+        <option value="$PROJECT_DIR$/Day03/Demo2.html" />
+        <option value="$PROJECT_DIR$/Day03/Demo3.html" />
+        <option value="$PROJECT_DIR$/Day03/Test3/Test1.html" />
+        <option value="$PROJECT_DIR$/Day03/Test3/Demo4.html" />
+        <option value="$PROJECT_DIR$/Day03/Demo4.html" />
       </list>
     </option>
   </component>
@@ -198,36 +205,13 @@
             <path>
               <item name="Web_qianduan" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web_qianduan" type="462c0819:PsiDirectoryNode" />
-              <item name="Css" type="462c0819:PsiDirectoryNode" />
+              <item name="Day03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web_qianduan" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web_qianduan" type="462c0819:PsiDirectoryNode" />
-              <item name="Day01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web_qianduan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_qianduan" type="462c0819:PsiDirectoryNode" />
-              <item name="Day01" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web_qianduan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_qianduan" type="462c0819:PsiDirectoryNode" />
-              <item name="Day02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web_qianduan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_qianduan" type="462c0819:PsiDirectoryNode" />
-              <item name="Day02" type="462c0819:PsiDirectoryNode" />
-              <item name="Text2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web_qianduan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_qianduan" type="462c0819:PsiDirectoryNode" />
-              <item name="Day02" type="462c0819:PsiDirectoryNode" />
-              <item name="Text2" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="Day03" type="462c0819:PsiDirectoryNode" />
+              <item name="Test3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,18 +229,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebProjects\Web_qianduan\Day01" />
-      <recent name="D:\WebProjects\Web_qianduan\Test\img" />
-      <recent name="D:\WebProjects\Web_qianduan" />
-      <recent name="D:\WebProjects\Web_qianduan\Day01\Test" />
-      <recent name="D:\WebProjects\Day01" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebProjects\Web_qianduan\Day02\Text2\img" />
       <recent name="D:\WebProjects\Web_qianduan\Test\img" />
       <recent name="D:\WebProjects\Web_qianduan\Day01\img" />
       <recent name="D:\WebProjects\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebProjects\Web_qianduan\Day03" />
+      <recent name="D:\WebProjects\Web_qianduan\Day01" />
+      <recent name="D:\WebProjects\Web_qianduan\Test\img" />
+      <recent name="D:\WebProjects\Web_qianduan" />
+      <recent name="D:\WebProjects\Web_qianduan\Day01\Test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,16 +271,18 @@
       <workItem from="1597112832594" duration="8000" />
       <workItem from="1597113157584" duration="18138000" />
       <workItem from="1597192184125" duration="14058000" />
+      <workItem from="1597279407724" duration="2881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35346000" />
+    <option name="totallyTimeSpent" value="38227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32551318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12764457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,41 +316,11 @@
     <entry file="file://$PROJECT_DIR$/Test/Text6.html" />
     <entry file="file://$PROJECT_DIR$/Test/Text5.html" />
     <entry file="file://$PROJECT_DIR$/Test/Text4.html" />
-    <entry file="file://$PROJECT_DIR$/Test/Test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Test3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Test7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day01/Demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Test2.html" />
+    <entry file="file://$PROJECT_DIR$/Test/Test3.html" />
+    <entry file="file://$PROJECT_DIR$/Test/Test1.html" />
+    <entry file="file://$PROJECT_DIR$/Test/Test7.html" />
+    <entry file="file://$PROJECT_DIR$/Day01/Demo1.html" />
     <entry file="file://$PROJECT_DIR$/Day02/Demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -413,21 +369,14 @@
     <entry file="file://$PROJECT_DIR$/Day02/Demo6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day02/Demo4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day02/Text2/Text3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -440,8 +389,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day02/Text2/Text4.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1067">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day02/Text2/Text3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day03/Demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day03/Demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day03/Demo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day03/Test3/Test1.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
-          <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day03/Demo4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
