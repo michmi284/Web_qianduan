@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            width: 760px;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        .nav {
+            width: 760px;
+            height: 32px;
+            /*background-color: pink;*/
+            margin: 0 auto;
+            background: url(../img/nav_bg.jpg) repeat-x;
+        }
+
+        .nav ul li {
+            /*因为li 让文字竖着显示，所以必须给li 添加浮动*/
+            float: left;
+        }
+
+        li {
+            display: block;
+            width: 80px;
+            line-height: 32px;
+            height: 32px;
+            /*background-color: pink;*/
+            background: url(../img/button1.jpg) no-repeat;
+            font-size: 12px;
+            text-decoration: none;
+            color: #40510a;
+            text-align: center;
+        }
+
+        li:hover {
+            background-image: url(../img/button2.jpg);
+        }
+
+        li a {
+            margin: auto;
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<!-- banner 是广告条的 -->
+<div class="banner">
+    <img src="../img/banner.jpg" alt="">
+</div>
+<!-- nav 导航栏部分  -->
+<!-- 以后我们重要的导航栏，都要采取 li 包含a 的写法 -->
+<div class="nav">
+    <ul>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+        <li><a href="#">网站首页</a></li>
+    </ul>
+</div>
+</body>
+</html>
