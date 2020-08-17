@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位的盒子是不占有原来位置的</title>
+    <style>
+        .father{
+            width: 500px;
+            height: 500px;
+            background-color: aqua;
+            position: relative;
+        }
+        .brother{
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+        }
+        .son {
+            width: 100px;
+            height: 100px;
+            background-color: silver;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="brother"></div>
+    <div class="son"></div>
+</div>
+</body>
+</html>

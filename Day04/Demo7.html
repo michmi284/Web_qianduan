@@ -2,21 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>浮动</title>
+    <title>浮动会影响盒子的布局</title>
     <style>
-        /*大多数布局是不方便给父级高度，通常是盒子有多少内容，就显示多少内容，也就是自动撑开父亲盒子*/
+        /*大多数布局是不方便给父级高度，
+        通常是盒子有多少内容，
+        就显示多少内容，
+        也就是自动撑开父亲盒子*/
         .one {
             width: 300px;
+            /*height: 200px;*/
             background-color: deeppink;
         }
 
+        /*.one-da .one-xiao浮动了，不占有位置，而且父没有高度*/
+
         .one-da {
+            float: left;
             width: 100px;
             height: 100px;
             background-color: purple;
         }
 
         .one-xiao {
+            float: left;
             width: 130px;
             height: 130px;
             background-color: violet;
