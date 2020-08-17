@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button id="pic1">你背叛了工人阶级</button>
+    <button id="pic2">小布尔乔亚的无病呻吟</button>
+</div>
+<img src="../Day01/img/你背叛了工人阶级%20cnm.jpg" alt="" title="你背叛了工人阶级 cnm">
+<script>
+    //获取元素
+    // var pic1 = document.getElementById('pic1');
+    // var pic2 = document.getElementById('pic2');
+    var imgh = document.querySelector('img');
+    //注册事件
+    pic1.onclick = function () {
+        imgh.src = '../Day01/img/你背叛了工人阶级%20cnm.jpg';
+        imgh.title = '你背叛了工人阶级 cnm';
+    };
+    pic2.onclick = function () {
+        imgh.src = '../Day01/img/小布尔乔亚的无病呻吟.jpg';
+        imgh.title = '小布尔乔亚的无病呻吟';
+    };
+</script>
+
+</body>
+</html>

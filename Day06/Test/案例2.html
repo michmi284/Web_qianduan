@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="../img/z.gif" alt="">
+<div>早上好</div>
+<script>
+    //获取元素
+    var img = document.querySelector('img');
+    var div = document.querySelector('div');
+
+    var date = new Date();
+    var h = date.getHours();
+    //注册事件
+
+    if (h >= 0 && h < 7) {
+        img.src = '../img/z.gif';
+        div.innerHTML = '早上好';
+    } else if (h >= 7 && h < 12) {
+        img.src = '../img/s.gif';
+        div.innerHTML = '上午好';
+    } else if (h >= 12 && h < 18) {
+        img.src = '../img/x.gif';
+        div.innerHTML = '下午好';
+    } else {
+        img.src = '../img/w.gif';
+        div.innerHTML = '晚上好';
+    }
+</script>
+</body>
+</html>

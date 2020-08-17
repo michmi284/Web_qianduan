@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<script>
+    var color = document.querySelector('div');
+    var flag = true;
+    color.onclick = function () {
+        if (flag == true) {
+            this.style.backgroundColor = 'silver';
+            this.style.width = '600px';
+            this.style.height = '600px';
+            flag = false;
+        } else {
+            this.style.backgroundColor = 'aqua';
+            this.style.width = '300px';
+            this.style.height = '300px';
+            flag = true;
+        }
+    }
+
+</script>
+</body>
+</html>
