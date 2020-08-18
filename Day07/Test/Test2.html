@@ -113,16 +113,17 @@
     }
     //下面的复选框全部选中，上面的全选框自动变成选中
     for (var i = 0; i < j_tbs.length; i++) {
-        j_tbs[i].onclick=function () {
-            var flag=true
+        j_tbs[i].onclick = function () {
+            var flag = true
             //每次点击下面的复选框都要检查四个小按钮是否全被选中
             for (var j = 0; j < j_tbs.length; j++) {
-                if (!j_tbs[j].checked){
+                if (!j_tbs[j].checked) {
                     //没有被选中
-                    flag=false
+                    flag = false
+                    break
                 }
             }
-            j_cbAll.checked=flag;
+            j_cbAll.checked = flag;
         }
     }
 </script>
