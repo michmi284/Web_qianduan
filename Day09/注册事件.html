@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>传统注册事件</button>
+<button>方法监听注册事件</button>
+
+<script>
+    var btns = document.querySelectorAll('button')
+    //传统 唯一，按顺序覆盖
+    btns[0].onclick = function () {
+        alert('nssmddx')
+    }
+    btns[0].onclick = function () {
+        alert('nyssmddx')
+    }
+    //方法监听注册事件
+    //没有on
+    btns[1].addEventListener('click', function () {
+        alert('我要充值')
+    })
+    btns[1].addEventListener('click', function () {
+        alert('我还要充值')
+    })
+
+</script>
+
+</body>
+</html>

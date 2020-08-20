@@ -73,7 +73,7 @@
         <counts>
           <entry key="css" value="2" />
           <entry key="gif" value="2" />
-          <entry key="html" value="253" />
+          <entry key="html" value="255" />
           <entry key="jpg" value="14" />
           <entry key="js" value="1" />
           <entry key="png" value="5" />
@@ -82,7 +82,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="253" />
+          <entry key="HTML" value="255" />
           <entry key="Image" value="21" />
           <entry key="JavaScript" value="1" />
         </counts>
@@ -90,24 +90,42 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="163" />
-          <entry key="html" value="24845" />
+          <entry key="html" value="25539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="163" />
-          <entry key="HTML" value="24845" />
+          <entry key="HTML" value="25539" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day09/11.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day09/注册事件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="365">
+              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day09/删除事件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day09/don事件流三个阶段.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -129,9 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day06/日期.html" />
-        <option value="$PROJECT_DIR$/Day06/getElementById获取元素.html" />
-        <option value="$PROJECT_DIR$/Day06/根据标签名获取元素.html" />
         <option value="$PROJECT_DIR$/Day06/事件基础.html" />
         <option value="$PROJECT_DIR$/Day06/H5新增.html" />
         <option value="$PROJECT_DIR$/Day06/案例1.html" />
@@ -180,6 +195,9 @@
         <option value="$PROJECT_DIR$/Day09/Test/Test1.html" />
         <option value="$PROJECT_DIR$/Day09/Test/Test2.html" />
         <option value="$PROJECT_DIR$/Day09/11.html" />
+        <option value="$PROJECT_DIR$/Day09/注册事件.html" />
+        <option value="$PROJECT_DIR$/Day09/删除事件.html" />
+        <option value="$PROJECT_DIR$/Day09/don事件流三个阶段.html" />
       </list>
     </option>
   </component>
@@ -311,12 +329,12 @@
       <workItem from="1597746842364" duration="2311000" />
       <workItem from="1597796354371" duration="12139000" />
       <workItem from="1597817300909" duration="636000" />
-      <workItem from="1597884237689" duration="3407000" />
+      <workItem from="1597884237689" duration="7001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153037000" />
+    <option name="totallyTimeSpent" value="156631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="0" width="720" height="860" extended-state="0" />
@@ -335,7 +353,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.35444745" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3539945" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -348,20 +366,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day06/innerText和innerHTML的区别.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day06/getElementById获取元素.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day06/Test/案例3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -694,10 +698,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day09/11.html">
+    <entry file="file://$PROJECT_DIR$/Day09/注册事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="365">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09/删除事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day09/don事件流三个阶段.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
