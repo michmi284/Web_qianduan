@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <textarea name="" id=""></textarea>
+    <button>发布</button>
+    <ul></ul>
+</div>
+
+<script>
+    var text = document.querySelector('textarea')
+    var btn = document.querySelector('button')
+    var ul = document.querySelector('ul')
+    btn.onclick = function () {
+        if (text.value == '') {
+            alert('nssmddx')
+        } else {
+            var li = document.createElement('li')
+            li.innerHTML = text.value
+            // ul.appendChild(li)
+            ul.insertBefore(li,ul.children[0])
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<div style="width: 100px; weight:100px; border:1px solid aqua"></div>-->
+<script>
+    function fn() {
+        var d1 = new Date()
+        // var arr = []
+        for (var i = 0; i < 1000; i++) {
+            // document.body.innerHTML += '<div style="width: 100px; weight:100px; border:1px solid aqua"></div>\n'
+            // arr.push('<div style="width: 100px; weight:100px; border:1px solid aqua"></div>\n')
+            var div = document.createElement('div')
+            div.style.width = '100px'
+            div.style.height = '2px'
+            div.style.border = '1px solid aqua'
+            document.body.appendChild(div)
+
+        }
+        // document.body.innerHTML+=arr.join('')
+        var d2 = new Date()
+        console.log(d2 - d1)
+    }
+
+    fn();
+</script>
+
+</body>
+</html>

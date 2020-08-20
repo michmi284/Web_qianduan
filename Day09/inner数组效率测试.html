@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<div style="width: 100px; weight:100px; border:1px solid aqua"></div>-->
+<script>
+    function fn() {
+        var d1 = new Date()
+        var arr = []
+        for (var i = 0; i < 1000; i++) {
+            // document.body.innerHTML += '<div style="width: 100px; weight:100px; border:1px solid aqua"></div>\n'
+            arr.push('<div style="width: 100px; height:2px; border:1px solid aqua"></div>\n')
+        }
+        document.body.innerHTML += arr.join('')
+        var d2 = new Date()
+        console.log(d2 - d1)
+    }
+
+    fn();
+</script>
+
+</body>
+</html>

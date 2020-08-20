@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>我要充值</button>
+<p>111</p>
+<div class="inner"></div>
+<div class="create"></div>
+<!--<div>123</div>-->
+<!--<a href="#">我要充值</a>-->
+<script>
+    // window.onload = function () {
+    //     document.write('<div>123</div>\n')
+    // }
+    // var btn = document.querySelector('button')
+        //1.document.write创建元素如果页面文档流加载完毕，在调用这句话会导致页面重绘
+    // btn.onclick=function () {
+    //     document.write('<div>123</div>\n')
+    // }
+// var inner= document.querySelector('.inner')
+    //拼接字符串
+    // for (var i = 0; i < 100; i++) {
+    //     inner.innerHTML+='<a href="#">我要充值</a>'
+    // }
+    // var arr=[]
+    // for (var i = 0; i < 100; i++) {
+    //     //数组元素的添加
+    //     arr.push('<a href="#">我要充值</a>')
+    // }
+    // //将数组连接起来
+    // inner.innerHTML=arr.join('/')
+    //
+    var create= document.querySelector('.create')
+    for (var i = 0; i < 100; i++) {
+        var a=document.createElement('a')
+        a.innerHTML='我要充值'
+        a.herf='#'
+        create.appendChild(a)
+    }
+</script>
+</body>
+</html>

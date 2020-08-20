@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inner数组</title>
+</head>
+<body>
+
+<script>
+    function fn() {
+        var d1=new Date()
+        var arr=[]
+        for (var i = 0; i < 10000; i++) {
+            arr.push('<div style="width: 100px; height:2px; border:1px solid olive"></div>\n')
+        }
+        document.body.innerHTML=arr.join('')
+        var d2=new Date()
+        console.log(d2-d1)
+    }
+    fn()
+</script>
+
+</body>
+</html>
