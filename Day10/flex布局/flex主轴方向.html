@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        div {
+            /*给父集添加flex属性*/
+            display: flex;
+            width: 800px;
+            height: 300px;
+            background-color: aqua;
+            /*默认主轴是x轴，行row，y轴是侧轴*/
+            /*元素是跟随主轴进行排列*/
+            /*flex-direction: row;*/
+            /*flex-direction: column;*/
+            /*flex-direction: row-reverse;*/
+            flex-direction: column-reverse;
+        }
+        div span{
+            width: 150px;
+            height: 100px;
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+</div>
+
+
+</body>
+
+
+</html>

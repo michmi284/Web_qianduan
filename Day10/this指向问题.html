@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button>我要充值</button>
+<script>
+    //this 一般情况下指向的是调用的那个对象
+    //全局作用域或者普通函数中this指向全局对象window
+    console.log(this)//指向window
+    function fn() {
+        console.log(this)//指向window
+    }
+
+    window.fn()
+    window.setTimeout(function () {
+        console.log(this)
+    }, 1000)
+    //方法调用中谁调用this就指向谁
+    var o = {
+        sayHi: function () {
+            console.log(this)
+        }
+    }
+    o.sayHi()
+    var btn = document.querySelector('button')
+    btn.onclick = function () {
+        console.log(this)//指向btn
+    }
+    btn.addEventListener('click', function () {
+        console.log(this)
+    })
+
+    //构造函数
+    function fun() {
+        console.log(this)
+    }
+
+    var fun = new fun()
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div></div>
+
+<script>
+    var div = document.querySelector('div')
+    countDown()
+    setInterval(countDown, 1000)
+
+    function countDown() {
+        var date = new Date()
+        div.innerHTML = date
+        var y = date.getFullYear()
+        var mon = date.getMonth() + 1
+        var d = date.getDate()
+        var w = date.getDay()
+        var h = date.getHours()
+        var m = date.getMinutes()
+        var s = date.getSeconds()
+        var arr = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']
+        div.innerHTML = '今天是' + y + '年' + mon + '月' + d + '日' + arr[w] + h + '时' + m + '分' + s + '秒'
+    }
+
+    countDown()
+</script>
+
+</body>
+</html>
